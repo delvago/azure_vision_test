@@ -1,0 +1,41 @@
+# Archivo .gitignore para proyecto Python con Azure Vision
+
+# Entornos virtuales
+# Reemplaza 'venv/' con el nombre de tu directorio de entorno si es diferente (e.g., env, .venv)
+venv/
+env/
+.venv/
+*/venv/
+*/env/
+*/.venv/
+
+# Archivos de configuración sensibles
+# ¡¡MUY IMPORTANTE para no subir tus claves API!!
+.env
+*.env
+
+# Archivos de caché y bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Directorios de distribución / instalación
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Archivos generados por IDEs y editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Archivos y directorios de testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos de Jupyter Notebook (cache)
+.ipynb_checkpoints
+
